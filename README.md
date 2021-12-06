@@ -57,3 +57,7 @@ DESCRIPTION
     A CLI progress bar is provided to indicate the deployment/scaling progress.
 
     The application can be deployed with a configurable number of replicas.
+    
+SAMPLE RUNS
+
+![Screenshot](resources/sample-test-run.gif)
