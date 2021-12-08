@@ -1,6 +1,6 @@
 # kubernetes-api-knd
 
-Problem statement:
+## Problem statement:
 
  
 
@@ -26,11 +26,20 @@ We are interested in the structure and readability of the code. Once complete, s
 
 We are hoping that this will not take up more than one day of your time, but if you get stuck or have clarifying questions feel free to reach out to the team by replying to this email. Let us know how long you spent overall on the coding portion, once completed.
 
+## Requirements
+- Python 3.8+
+- Working minikube/kubernetes cluster
+
+## Installation
+```
+virutualenv venv-knd
+source venv-knd/bin/activate
+pip install -r requrements.txt
+#python knd.py <options>
+```
  
 
- 
-
-Man page:
+## Man page:
 
  
 
@@ -57,7 +66,6 @@ DESCRIPTION
     A CLI progress bar is provided to indicate the deployment/scaling progress.
 
     The application can be deployed with a configurable number of replicas.
-    
-SAMPLE RUNS
+## Sample Runs
 
 ![Screenshot](resources/sample-test-run.gif)
